@@ -29,3 +29,16 @@ Key components:
 - Predict binary labels (`1` or `-1`).
 - Train the model by updating weights for misclassified examples.
 
+### Task 2: Non-Linear Regression
+
+**Autograder:** Question 2 (`q2`)
+
+Implemented the `RegressionModel` class to approximate the sine function over the interval `[-2π, 2π]`.
+
+Key components:
+
+- Design a neural network using linear layers.
+- Apply ReLU activation functions between hidden layers.
+- Calculate regression loss using Mean Squared Error (MSE).
+- Train the model using gradient-based optimization.
+
