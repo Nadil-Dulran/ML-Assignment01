@@ -42,3 +42,16 @@ Key components:
 - Calculate regression loss using Mean Squared Error (MSE).
 - Train the model using gradient-based optimization.
 
+### Task 3: Digit Classification (MNIST)
+
+**Autograder:** Question 3 (`q3`)
+
+Implemented the `DigitClassificationModel` class to classify handwritten digits from the MNIST dataset.
+
+Key components:
+
+- Process 28 × 28 pixel images represented as 784-dimensional input vectors.
+- Build a neural network that produces scores for ten digit classes (0–9).
+- Use cross-entropy loss for classification.
+- Evaluate model performance using validation accuracy.
+
