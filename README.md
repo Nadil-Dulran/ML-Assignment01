@@ -55,3 +55,19 @@ Key components:
 - Use cross-entropy loss for classification.
 - Evaluate model performance using validation accuracy.
 
+### Bonus Task: Convolutional Neural Networks
+
+**Autograder:** Question 5 (`q5`)
+
+The optional bonus task involves implementing the `Convolve` function and completing the `DigitConvolutionalModel` class.
+
+The objective is to perform matrix convolution and use a convolutional neural network to classify handwritten digits.
+
+## Technologies Used
+
+- **Python** – Programming language
+- **PyTorch** – Neural network implementation and training
+- **NumPy** – Numerical computing
+- **Matplotlib** – Data visualization
+- **pytest / provided autograder** – Testing and evaluation
+
