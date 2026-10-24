@@ -71,3 +71,17 @@ The objective is to perform matrix convolution and use a convolutional neural ne
 - **Matplotlib** – Data visualization
 - **pytest / provided autograder** – Testing and evaluation
 
+## Project Structure
+
+```text
+ML-Assignment01/
+├── models.py             # Neural network implementations
+├── autograder.py         # Automated assignment tests
+├── backend.py            # Assignment backend utilities
+├── data/                 # Assignment datasets, including MNIST data
+├── README.md             # Project documentation
+├── .gitignore            # Files excluded from Git
+└── input.txt             # Input data used by supporting scripts
+```
+
+The exact files and folders may differ depending on the supplied starter code. The virtual environment folder `.venv/` is intentionally excluded from GitHub.
