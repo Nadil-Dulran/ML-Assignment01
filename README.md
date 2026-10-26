@@ -147,3 +147,39 @@ python autograder.py --check-dependencies
 ```
 
 Resolve any reported dependency errors before proceeding.
+
+## Running the Autograder
+
+Run the provided autograder from the root directory of the repository, with the virtual environment activated.
+
+### Task 1: Perceptron
+
+```bash
+python autograder.py -q q1
+```
+
+### Task 2: Non-Linear Regression
+
+```bash
+python autograder.py -q q2
+```
+
+### Task 3: Digit Classification
+
+```bash
+python autograder.py -q q3
+```
+
+### Bonus Task: Convolutional Neural Networks
+
+```bash
+python autograder.py -q q5
+```
+
+### Run the Complete Autograder
+
+```bash
+python autograder.py
+```
+
+Review the terminal output to identify passing tests, failed tests, and any implementation issues.
