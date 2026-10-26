@@ -85,3 +85,65 @@ ML-Assignment01/
 ```
 
 The exact files and folders may differ depending on the supplied starter code. The virtual environment folder `.venv/` is intentionally excluded from GitHub.
+
+## Installation and Setup
+
+Follow these steps to set up and run the project on macOS or another system with Python installed.
+
+### 1. Clone the Repository
+
+```bash
+git clone <YOUR_GITHUB_REPOSITORY_URL>
+cd ML-Assignment01
+```
+
+Alternatively, download the repository and open its root directory in VS Code.
+
+### 2. Create a Python Virtual Environment
+
+Create an isolated Python environment using `venv`:
+
+```bash
+python3 -m venv .venv
+```
+
+### 3. Activate the Virtual Environment
+
+On macOS or Linux:
+
+```bash
+source .venv/bin/activate
+```
+
+On Windows PowerShell:
+
+```powershell
+.venv\Scripts\Activate.ps1
+```
+
+Once activated, the terminal should display `(.venv)` before the command prompt.
+
+### 4. Upgrade pip and Install Dependencies
+
+```bash
+python -m pip install --upgrade pip
+python -m pip install numpy matplotlib torch
+```
+
+The assignment recommends using the CPU version of PyTorch to avoid hardware compatibility issues.
+
+If NumPy compatibility errors occur, try installing a version below 2.0, such as:
+
+```bash
+python -m pip install "numpy==1.24.3"
+```
+
+### 5. Verify the Dependencies
+
+Run the following command to check whether the required dependencies are available:
+
+```bash
+python autograder.py --check-dependencies
+```
+
+Resolve any reported dependency errors before proceeding.
