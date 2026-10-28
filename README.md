@@ -183,3 +183,17 @@ python autograder.py
 ```
 
 Review the terminal output to identify passing tests, failed tests, and any implementation issues.
+
+## Learning Outcomes
+
+Through this assignment, I worked with:
+
+- Perceptron learning and weight updates.
+- Feedforward neural network architecture.
+- Forward propagation and loss calculation.
+- Gradient-based optimization and backpropagation.
+- Regression using Mean Squared Error.
+- Multi-class classification using cross-entropy loss.
+- MNIST image classification and model evaluation.
+- Convolution operations and CNN architecture concepts.
+
