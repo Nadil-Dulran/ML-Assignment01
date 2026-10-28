@@ -197,3 +197,15 @@ Through this assignment, I worked with:
 - MNIST image classification and model evaluation.
 - Convolution operations and CNN architecture concepts.
 
+## References
+
+- [Berkeley CS188 Machine Learning Project – Starter Code](https://inst.eecs.berkeley.edu/~cs188/fa24/assets/projects/machinelearning.zip)
+- [Berkeley CS188 Project Specification](https://inst.eecs.berkeley.edu/~cs188/fa24/projects/proj5/)
+- [PyTorch Documentation](https://pytorch.org/docs/stable/index.html)
+- [NumPy Documentation](https://numpy.org/doc/)
+
+---
+
+**Module:** SE4022 – Machine Learning
+**Assignment:** Assignment 01 – Neural Networks and Deep Learning
+**Academic Year:** 2026
